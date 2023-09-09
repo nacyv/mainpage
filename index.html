@@ -1,9 +1,61 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title> Homepage </title>
-  </head>
-  <body>
-    Hello world
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+  <link rel="stylesheet" href="home.css">
+  
+  <title>Home</title>
+
+  <!--script src="//unpkg.com/systemjs@0.19.47/dist/system.js"></script-->
+</head>
+
+<body>
+<div class="credit">@nanang-cyrliv</div>
+	<div id="main">
+		<div class="widget">
+			<div id="clock" class="digital-dismay-font">
+				<div id="clock-hour">00:</div>
+				<div id="clock-minute">00:</div>
+				<div id="clock-second">00</div>
+			</div>
+			<div id="date">Jum'at, 8 September 2023</div>
+			<div id="weather"></div>
+		</div>
+		
+		<div id="search">
+			<div id="search-bar">
+				<input type="text" id="search-input" placeholder=" search...">
+				<button id="search-enter" ></button>
+			</div>
+			<div id="search-options"></div>
+			<div id="search-history"></div>
+		</div>
+		
+		<div class="menu-list">
+			<button id="social">
+				<span class="material-symbols-outlined">apps</span>
+			</button>
+			<button id="games">
+				<span class="material-symbols-outlined">sports_esports</span>
+			</button>
+			<button id="tools">
+				<span class="material-symbols-outlined">widgets</span>
+			</button>
+			<button id="settings">
+				<span class="material-symbols-outlined">settings</span>
+			</button>
+		</div>
+		
+	</div>
+	
+	<div id="view"></div>
+	
+	<div id="menu-view"></div>
+	
+  <script type="module" src="main.js"></script>
+</body>
 </html>
+
+
